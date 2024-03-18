@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body ,h2 ,button{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+.body {
+  background-color: #f6f6f6;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.person {
+  width: 45%;
+  border: 1px solid #000;
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.person h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.person .progress {
+  background-color: #888;
+  height: 35px;
+}
+.person .progress span {
+  display: block;
+  width: 100%;
+  background-color: green;
+  height: 100%;
+}
+
+.person img {
+  width: 350px;
+  height: 350px;
+  margin: 10px auto;
+  display: block;
+  background-size: cover;
+}
+.person button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+#naruto-attack,
+#sasuke-attack {
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+}
+
+#naruto-make-health,
+#sasuke-make-health {
+    background-color: green;
+    border: 0;
+    border-radius: 5px;
+}
